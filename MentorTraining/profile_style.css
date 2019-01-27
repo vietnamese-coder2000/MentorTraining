@@ -1,0 +1,81 @@
+
+.card {
+    padding-top: 20px;
+    margin: 10px 0 20px 0;
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    border-radius: 3px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+
+.card.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    background-color: rgba(214, 224, 226, 0.2);
+
+}
+
+.card.hovercard .cardheader {
+    background: url("cover.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+.card.hovercard .avatar {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+    text-align: center;
+}
+
+.card.hovercard .avatar img {
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,0.5);
+}
+
+.card.hovercard .info {
+    padding: 4px 8px 10px;
+    text-align: center;
+}
+
+.card.hovercard .info .title {
+    margin-bottom: 4px;
+    font-size: 30px;
+    line-height: 1;
+    color: #262626;
+    vertical-align: middle;
+}
+
+.card.hovercard .info .description {
+    overflow: hidden;
+    font-size: 30px;
+    line-height: 30px;
+    color: #737373;
+    text-overflow: ellipsis;
+}
+
+.card.hovercard.email{
+    text-align: left;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.card.hovercard.email p{
+    color: #808080;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.card.hovercard .bottom {
+    padding: 0 20px;
+    margin-bottom: 17px;
+}
+
+

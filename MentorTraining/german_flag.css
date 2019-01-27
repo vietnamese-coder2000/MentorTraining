@@ -1,0 +1,19 @@
+.flagpart{
+    position:relative;
+    max-width: 615px;
+    height: 150px;
+    margin-left: 0;
+    margin-bottom: 0;
+    /*padding:60px;*/
+    box-sizing: border-box;
+    border-style: hidden;
+    text-align: left;
+}
+
+.flagpart.color{
+    position:absolute;
+    top:0;
+    left:0;
+    padding-top: 0;
+    padding-left: 0;
+}
